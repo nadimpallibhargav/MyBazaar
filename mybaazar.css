@@ -1,0 +1,32 @@
+/* body{
+    background-image: url("images/p.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+header{
+    text-align: center;
+    background-color: whitesmoke;
+}
+details{
+    text-align: left;
+}
+
+dialog{
+    position: fixed;
+}
+dl>dd>a:hover{
+font-size: 15px;
+
+background-color: green;
+color: white;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
