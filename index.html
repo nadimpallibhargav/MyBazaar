@@ -33,6 +33,10 @@
          .carousel-indicators li{
            background-color: green;
          }
+    footer .card{
+      background-color: #f6f6f6;
+      padding: 20px;
+    }
     </style> 
 </head>
 <body>
@@ -48,7 +52,7 @@
     <div class="container-fluid">
       <div id="navigation">
        <nav class="btn-toolbar">        
-        <menu>
+        <menu class="nav nav-bar responsive">
           <div class="btn-group">
           <div class="dropdown">
             <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" >
@@ -130,10 +134,12 @@
    </div>
 </section>
               
-<section>                   
+<section style="background-color: #f6f6f6;">                   
  <div class="buynow container-fluid">
 
+  <div class="container" style="height: 40px;"></div>
   <div class="container"><h3 style="text-align: center;">Buy now</h3></div>  
+  <div class="container" style="height: 40px;"></div>
     
   <div class="card-deck">
     <div class="card">
@@ -176,11 +182,13 @@
  </div>
 </section>
 
-<section>
+<section style="background-color: #f6f6f6;">
   <div class="special container-fluid">
+    <div class="container" style="height: 40px;"></div>
     <div class="w-100">
     <h3 style="text-align: center;">Vegitables | Special Offer</h3>
     </div>
+    <div class="container" style="height: 40px;"></div>
 
   <div class="card-deck">
 
@@ -223,12 +231,14 @@
   </div>  <!--card-deck end-->
   </div>
 
+<div class="container" style="height: 45px;"></div>
 <div class="hr">
-<hr style="border: 1px solid black;">
+<hr style="border: 1px solid rgba(0, 0, 0, 0.657); margin: 0px;">
 </div>
 </section>  
 
-<footer>         
+<footer style="background-color: #bdf2d5; padding: 40px 0px 0px 30px;">        
+  
        <div class="card-deck foot container-fluid">  
         
         <span class="card">
@@ -300,8 +310,8 @@
         
       </div>
 
-<div class="copy container">
-  <span class="" style="text-align: center; font-size: 1em;"> &copy;2020<span>
+<div class="copy container" style="text-align: center; padding: 20px 0px 0px 0px;">
+  <span class="" style="text-align: center; font-size: 1em;"> &copy;2020 All rights reserved<span>
 </div>
 </footer>
 </body>
