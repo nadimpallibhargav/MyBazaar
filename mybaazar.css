@@ -1,13 +1,23 @@
-/* body{
-    background-image: url("images/p.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+*{
+    font-family: sans-serif;
+}
 
-} */
 header{
     text-align: center;
     background-color: whitesmoke;
 }
+
+.btn-outline-success{
+    border-color: #fff;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{           
+    background-color: tomato;           
+}
+.carousel-indicators li{
+    background-color: green;           
+}
+
 details{
     text-align: left;
 }
@@ -15,15 +25,21 @@ details{
 dialog{
     position: fixed;
 }
+
 dl>dd>a:hover{
 font-size: 15px;
-
 background-color: green;
 color: white;
 text-decoration: none;
 }
 
-
+footer .card{
+    background-color: #f6f6f6;
+    padding: 20px;
+}
+  
+@media screen and (max-width: 760px) {
+}
 
 
 
