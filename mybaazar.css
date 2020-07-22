@@ -8,7 +8,7 @@ header{
 }
 
 nav{
-    background-color: #fa4252;
+    background-color: #ff6f5e;
 }
 
 .btn-outline-success{
@@ -16,7 +16,7 @@ nav{
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{           
-    background-color: tomato;           
+    background-color: #ff6f5e;          
 }
 .carousel-indicators li{
     background-color: green;           
@@ -66,8 +66,10 @@ footer .card{
     padding: 20px;
 }
 
-
-
+.btn-outline-success:hover{
+    background-color: #91bd3a;
+    border: 1px solid white;
+}
 
 
 
