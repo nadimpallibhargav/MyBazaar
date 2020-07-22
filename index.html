@@ -16,7 +16,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/46c23aaf69.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="../fonts/css/all.css">
 <link rel="stylesheet" type="text/css" href="mybaazar.css">
@@ -33,14 +36,14 @@
       </div>
     </div>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger justify-content-around">
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-around mx">
 
       <button class="navbar-toggler btn btn-outline-info" data-toggle="collapse" data-target="#navbarCollapse" type="button" >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="nav-item dropdown">
+        <div class="nav-item dropdown mx-5">
           <a href="#" class="nav-link dropdown-toggle btn btn-outline-success text-light" data-toggle="dropdown" role="button">Categories</a>
           <div class="dropdown-menu">
             <a href="#" class="dropdown-item">Vegitables</a>
@@ -50,24 +53,30 @@
           </div>
         </div>
   
-        <form class="form-inline mx-2 w-50">
+        <form class="form-inline w-50">
           <div class="input-group w-100">
-            <input type="text" class="form-control" placeholder="Search">
+            <input type="text" class="form-control px-4" placeholder="Search" id="search">
             <div class="input-group-append">
-              <button type="button" class="btn btn-outline-success text-light">Search</button>
+              <button type="button" class="btn btn-outline-success text-light">
+                <i class="fas fa-search"></i>
+              </button>
             </div>
           </div>
         </form>
   
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-4">
           <li class="nav-item mx-2">
-            <button href="#" class="nav-link btn btn-outline-success btn-lg text-light">Myorders</button>
+            <button href="#" class="nav-link btn btn-outline-success text-light">
+              <i class="fas fa-shopping-basket"></i> Myorders</button>
           </li>
           <li class="nav-item mx-2">
-            <button href="#" class="nav-link btn btn-outline-success btn-lg text-light">Sell</button>
+            <button href="#" class="nav-link btn btn-outline-success text-light">
+              <i class="fas fa-balance-scale"></i> Sell</button>
           </li>
           <li class="nav-item mx-2">
-            <button href="#" type="button" class="nav-link btn btn-outline-success btn-lg text-light">Login/Signup</button>
+            <button href="#" type="button" class="nav-link btn btn-outline-success text-light">                            
+              <i class="far fa-smile"></i> Login/Signup
+            </button>
           </li>
         </ul>
       </div>      
@@ -207,9 +216,9 @@
 <div class="container" style="height: 45px;"></div>
 </section>  
 
-<footer style="background-color: #bdf2d5; padding: 40px 0px 0px 30px;">        
+<footer class="footer">        
   
-       <div class="card-deck foot container-fluid">  
+       <div class="card-deck container-fluid p-4">  
         
         <span class="card">
          <details open>
@@ -257,22 +266,22 @@
           <details open>
           <summary>SOCIAL</summary>
           <dl>
-            <dd><a href="#">Facebook</a></dd>
-            <dd><a href="#">Twitter</a></dd>
-            <dd><a href="#">Youtube</a></dd>
+            <dd><a href="https://www.facebook.com/bhargavraju.nadimpalli/"><i class="fab fa-facebook-f"></i> Facebook</a></dd>
+            <dd><a href="#"><i class="fab fa-twitter"></i> Twitter</a></dd>
+            <dd><a href="#"><i class="fab fa-youtube"></i> Youtube</a></dd>
+            <dd><a href="https://www.linkedin.com/in/nadimpalli-bhargav-0a65a3181"><i class="fab fa-linkedin-in"></i> Linkedin</a></dd>
           </dl>
         </details>
         </span>
 
         <span class="card">
           <details open>
-          <summary style="color:cornflowerblue;">Registered office Address</summary>
+          <summary style="color: white">Registered office Address</summary>
           <dl>
             <dd>
-              Mybazaar Internet Pvt.Ltd.<br>
-              Bengalore, 560103,<br>
-              Karnataka, India<br>
-              Telephone: 1800 301 0000
+              Mybazaar Internet Pvt.Ltd.<br>              
+              India,<br>
+              Telephone: <br><i class="fas fa-phone-volume"></i> +91-6301725336
             </dd>
           </dl>
         </details>
@@ -281,7 +290,7 @@
       </div>
 
 <div class="copy container" style="text-align: center; padding: 20px 0px 0px 0px;">
-  <span class="" style="text-align: center; font-size: 1em; color: blue;"> &copy;2020 All rights reserved<span>
+  <span class=""> &copy;2020 All rights reserved<span>
 </div>
 </footer>
 </body>
