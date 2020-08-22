@@ -20,6 +20,9 @@
 <script src="https://kit.fontawesome.com/46c23aaf69.js" crossorigin="anonymous"></script>
 
 <style>
+    body{
+        background-color: whitesmoke;
+    }
     form{
        margin: auto;
        background-color: darkcyan;
@@ -42,10 +45,18 @@
 <body>
     <div class="container">
         <div class="container" style="text-align: center;">        
-            <a href="index.html"><img src="images/MYBAZAAR.png" alt="" style="text-align: center;"></a>
+        <a href="index.html"><img src="images/MYBAZAAR.png" alt="" style="text-align: center;"></a>
+        </div>        
+    <div class="container" id="form">        
+        <form action="">
+            <div class="form-group">
+                <label for="name">First Name</label><br>
+                <input type="text" name="name" class="form-control">
             </div>
-    <div class="container" id="form">
-        <form action="">            
+            <div class="form-group">
+                <label for="name">Last Name</label><br>
+                <input type="text" name="name" class="form-control">
+            </div>
             <div class="form-group">
                 <label for="mail">E-Mail</label><br>
                 <input type="email" name="mail" class="form-control">
@@ -54,9 +65,9 @@
                 <label for="pswd">Password</label><br>
                 <input type="password" name="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-danger btn-block">Login</button><br>
+            <button type="submit" class="btn btn-danger btn-block">Signup</button><br>
             <p style="text-align: center;">or</p><br>
-            <p>Don't have an account? <a href="signup.html" class="btn btn-success">Signup</a></p>
+            <p>already have an account? <a href="login.html" class="btn btn-success">Login</a></p>
 
         </form>
     </div>

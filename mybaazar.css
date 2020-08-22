@@ -10,6 +10,12 @@ header{
 nav{
     background-color: #ff6f5e;
 }
+nav a{
+    text-decoration: none;
+}
+ul.navbar-nav li a{
+    text-decoration: none;
+}
 
 .btn-outline-success{
     border-color: #fff;
