@@ -27,6 +27,30 @@ ul.navbar-nav li a{
 .carousel-indicators li{
     background-color: green;           
 }
+.carousel-item img{
+    height: 50vh;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-item img{
+    height: 10rem;
+}
+.card-body img{
+    height: 200px;
+}
+ul.navbar-nav li a{
+    text-align: center;
+}
+.nav-item{
+    border-bottom: 2px solid black;
+}
+form{
+    width: 100%;
+}
+input.search{
+    width: 100%;
+    display: block;
+}
+}
 
 #search:focus{
     border: 4px solid white;
